@@ -46,7 +46,7 @@ function BookForm(props: Props) {
               {props.categoryList.map(category => <option key={category.id} value={category.id}>{category.title}</option>)}
             </select>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">Submit.</button>
         </form>
       </div>
   
